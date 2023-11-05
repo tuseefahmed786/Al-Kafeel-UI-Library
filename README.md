@@ -1,7 +1,8 @@
 ```markdown
 # Al-Kafeel UI Library
 
-Al-Kafeel UI Library is a collection of reusable React components for building user interfaces. This library provides components such as Avatars and Buttons that you can easily integrate into your projects.
+Al-Kafeel UI Library is a collection of reusable React components for building user interfaces.
+This library provides components such as Avatars and Buttons that you can easily integrate into your projects.
 
 ## Installation
 
