@@ -1,6 +1,6 @@
 {
   "name": "@tuseefahmed110/al-kafeel-ui",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "we'r creating Pixel-Perfect UI Components library",
   "main": "dist/reactjscomponents.js",
   "scripts": {

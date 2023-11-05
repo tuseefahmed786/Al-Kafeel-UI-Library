@@ -1,0 +1,56 @@
+.d-flex {
+    display: flex;
+}
+
+/* Button Starting.... */
+
+.default {
+    border: none;
+    background: transparent;
+    border-radius: .2em;
+    padding: 0.5em 0.9em;
+    width: fit-content;
+}
+
+.contained {
+    background-color: rgb(25, 118, 210);
+    box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 1px -5px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+}
+
+.outlined {
+    border: 1px solid rgb(25, 118, 210);
+    color: currentColor;
+}
+
+.parentwidth{
+width: 100%;
+}
+
+.rounded-pill{
+border-radius: 200px;
+}
+
+
+
+
+
+
+
+
+
+/* Layout Starting */
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.reversecolumn {
+    flex-direction: column-reverse;
+}
+
+.reverserow {
+    flex-direction: row-reverse;
+}

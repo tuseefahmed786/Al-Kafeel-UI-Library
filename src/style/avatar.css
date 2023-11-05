@@ -1,0 +1,39 @@
+.avatarHeight {
+    width: 40px;
+    height: 40px;
+}
+
+.avatarImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plusavatar{
+    border-radius: 38px;
+    border: 2px solid white;
+    background: rgb(189, 189, 189);
+    color: white;
+}
+.avatarImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cirecleRadius{
+    border-radius: 299px;
+}
+.forcheck{
+    border-radius: 2px;
+}
+/* Avatar Layout */
+
+.avatarLayout .avatarImage{
+    margin-left: -5px;
+}
+
+.avatarLayout .avatarImage img{
+border: 2px solid white;
+}
+
+
