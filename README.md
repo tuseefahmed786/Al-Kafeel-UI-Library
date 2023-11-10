@@ -1,7 +1,8 @@
 ```markdown
 # Al-Kafeel UI Library
 
-Al-Kafeel UI Library is a collection of reusable React components for building user interfaces. This library provides components such as Avatars and Buttons that you can easily integrate into your projects.
+Al-Kafeel UI Library is a collection of reusable React components for building user interfaces.
+This library provides components such as Avatars and Buttons that you can easily integrate into your projects.
 
 ## Installation
 
@@ -12,8 +13,30 @@ npm install @tuseefahmed110/al-kafeel-ui
 # or
 yarn add @tuseefahmed110/al-kafeel-ui
 ```
+![Card Component](./src/style/Capture.PNG)
 
 ## Usage
+
+### Card Components
+
+The `Card` component allows you to display vany type of image like (product) arious customizations wih button
+
+#### Example:
+
+```jsx
+import { Card, Image, FooterCard } from '@tuseefahmed110/al-kafeel-ui';
+
+// Use the Avatar component in your React application
+<Card width="200px" height="200px" >
+    <Image className="width-100 object-fit-cover radius-1 height-100" src={pic} />
+          <FooterCard className="ph-1 white-clr
+          box-sizing align-items-center radius-1
+          absolute width-100 bootom-1 d-flex width-100 py-6 ph-1 border-1 blur width-cal-8-100 justify-content-space-between d-flex">
+            <p className='sm-text lg-white'>Available soon.</p>
+            <button className='sm-text ph-2 py-6 bg-black white-clr radius-2  border-none'>Buy Later</button>
+          </FooterCard>
+        </Card>
+```
 
 ### Avatar
 

@@ -1,0 +1,105 @@
+p {
+  margin: 0;
+}
+
+.sm-text {
+  font-size: 12px;
+}
+.align-items-center{
+  align-items: center;
+}
+.py-6{
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+.lg-white{
+  color: (0,0%,100%,.8);
+}
+.py-1 {
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.box-sizing {
+  box-sizing: border-box;
+}
+
+.blur {
+  border-radius: 10px;
+  backdrop-filter: blur(5px) saturate(1.5)
+}
+
+.ph-1 {
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+.ph-2 {
+  padding-left: .7em;
+  padding-right: .7em;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.bootom-1 {
+  bottom: 0.35em;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.width-cal-8-100 {
+  width: calc(100% - 8px);
+  margin-left: 3px;
+}
+
+.height-100 {
+  height: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.bg-none {
+  background: none;
+}
+
+.border-none {
+  border: none;
+}
+
+.border-1 {
+  border: 1px solid hsla(0, 0%, 100%, .2);
+}
+
+.white-clr {
+  color: white;
+}
+
+.bg-black {
+  background: rgba(0, 0, 0, .2);
+}
+
+.radius-2 {
+  padding: 8px 11px;
+  border-radius: 11px;
+}
+
+.radius-1{
+border-radius: 12px;
+}
+.object-fit-cover{
+  object-fit: cover;
+}
