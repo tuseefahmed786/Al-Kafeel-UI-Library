@@ -1,6 +1,6 @@
 {
   "name": "@tuseefahmed110/al-kafeel-ui",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "we'r creating Pixel-Perfect UI Components library",
   "main": "dist/my-library.js",
   "module": "dist/my-library.esm.js",

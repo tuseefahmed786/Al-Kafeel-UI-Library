@@ -1,8 +1,11 @@
 ```markdown
 # Al-Kafeel UI Library
 
-Al-Kafeel UI Library is a collection of reusable React components for building user interfaces.
-This library provides components such as Avatars and Buttons that you can easily integrate into your projects.
+Al-Kafeel UI Library is a collection of reusable
+React components for building user interfaces.
+This library provides components such as Avatars
+and Buttons that you can easily integrate into
+your projects.
 
 ## Installation
 
@@ -13,17 +16,19 @@ npm install @tuseefahmed110/al-kafeel-ui
 # or
 yarn add @tuseefahmed110/al-kafeel-ui
 ```
-![Card Component](./src/style/Capture.PNG)
 
 ## Usage
 
 ### Card Components
 
-The `Card` component allows you to display vany type of image like (product) arious customizations wih button
+The `Card` component allows you to display toggel type of image like (product) arious customizations wih button
+
+![Card Component](./src/style/Capture.PNG)
 
 #### Example:
 
 ```jsx
+#### Example:
 import { Card, Image, FooterCard } from '@tuseefahmed110/al-kafeel-ui';
 
 // Use the Avatar component in your React application
@@ -36,6 +41,24 @@ import { Card, Image, FooterCard } from '@tuseefahmed110/al-kafeel-ui';
             <button className='sm-text ph-2 py-6 bg-black white-clr radius-2  border-none'>Buy Later</button>
           </FooterCard>
         </Card>
+```
+## Usage
+
+### Toggel Button Components
+
+The `ToggelButton` component allows you to display 
+any type of toggel button like follow and unfollow
+
+#### Example:
+
+```jsx
+import { ToggelButton } from '@tuseefahmed110/al-kafeel-ui';
+
+ <ToggelButton
+        className={`ph-3 py-1 radius-2  
+      ${isSubscribe ? 'unfollow-color border-custom' : 'border-1 white follow-color'}`}
+        onPress={() => setIsSubscribe(!isSubscribe)}>
+        {isSubscribe ? "UnFollow" : "Follow"}</ToggelButton>
 ```
 
 ### Avatar
