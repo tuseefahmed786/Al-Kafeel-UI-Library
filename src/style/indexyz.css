@@ -174,3 +174,16 @@ background-color: #0070f0;
 .unFollow-color{
 background-color: #f0f0f0;
 }
+
+/* video */
+
+.video{
+  width: 170px;
+  height: 200px;
+}
+.video-align{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius:12px ;
+}
